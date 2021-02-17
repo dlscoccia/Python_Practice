@@ -1,6 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #2f3e46;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+    text-align: center;
+    color: #84a98c;
+    font-family: 'Lobster', cursive;
     font-size: 50px;
-    color: blueviolet;
+}
+
+h4 {
+    text-align: center;
+    color: #cad2c5;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.content {
+    width: 50%;
+}
+
+.content table th {
+    width: 100%;
+    border: 1px #cad2ca solid;
+    font-size: 20px;
+    background-color: #cad2c5;
+    color: #354f52;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.content table tr td {
+    background-color: #84a98c;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.content table tr td a {
+    color: #2f3e46;
+    font-size: 18px;
+}
+
+.content table tr td a:hover {
+    color: #52796f;
+}
+
+.content form {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content form .text {
+    width: 75%;
+    background-color: #cad2c5;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.content form .buttom {
+    width: 20%;
+    background-color: #52796f;
+    color: #cad2c5;
+    padding: 5px 5px;
+    border: 1px #cad2c5 solid;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.content form .buttom:hover {
+    background-color: #cad2c5;
+    border: 1px solid #52796f;
+    color: #52796f;
+}
+
+.content form .text:focus {
+    outline: none;
+    background-color: #cad2c5ce;
 }
